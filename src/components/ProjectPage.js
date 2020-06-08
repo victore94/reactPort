@@ -10,20 +10,20 @@ export class ProjectPage extends React.Component {
                 className='about-link'
                 rel='noreferrer'
                 href='https://vl-react-expensify-app.herokuapp.com/'>
-                Instagram Bot
+                Expensify
             </a>
         let instagram =
             <a
                 className='about-link'
                 rel='noreferrer'
-                href='http://github.com/'>
-                Expensify
+                href='https://github.com/victore94/instaBot'>
+                Instagram Bot
             </a>
         let twitch =
             <a
                 className='about-link'
                 rel='noreferrer'
-                href='http://github.com/'>
+                href='https://github.com/victore94/twitch_bot'>
                 Twitch Bot
             </a>
         return (
