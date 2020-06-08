@@ -2,6 +2,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import DashboardPage from '../components/DashboardPage'
+import NotFoundPage from '../components/NotFoundPage'
 import ProjectPage from '../components/ProjectPage'
 import Header from '../components/Header'
 
@@ -23,6 +24,7 @@ export default function Navbar() {
                 <Route path="/projects">
                     <ProjectPage />
                 </Route>
+                <Route component={NotFoundPage} />
             </Switch>
         </Router>
     );
