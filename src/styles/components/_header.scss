@@ -1,0 +1,12 @@
+.logo {
+  float: left;
+  color: $grey;
+}
+
+.logo-box {
+  border: thick solid $grey;
+  padding: 0.5rem 1rem;
+  &:hover {
+    transform: rotate(45deg);
+  }
+}

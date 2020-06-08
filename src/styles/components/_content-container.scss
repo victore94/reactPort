@@ -1,0 +1,23 @@
+.content-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 85vw;
+}
+
+.content-container__nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100rem;
+}
+
+.content-container__footer {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.content-container__projects {
+  @extend .content-container;
+  flex-direction: column;
+}

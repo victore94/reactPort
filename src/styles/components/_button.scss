@@ -1,0 +1,26 @@
+.button {
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+}
+
+.button__link {
+  color: $green;
+  font-size: large;
+}
+
+.button__footer {
+  @extend .button;
+  border: solid 0.12rem $grey;
+  border-radius: 5px;
+  padding: 10px;
+  color: $green;
+}
+
+.email-button {
+  color: $green;
+}
+
+.about-link {
+  color: $green;
+}
